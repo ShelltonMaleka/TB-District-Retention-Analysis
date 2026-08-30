@@ -47,14 +47,43 @@ Model Evaluation
 Interpretation of TB Patient Retention Factors
 ```
 ---
-## The strongest individual correlations with TB lost-to-follow-up rate were:
+## Data Quality Audit
+Before performing the analysis, the dataset was assessed using principles from the World Health Organization Data Quality Review framework.
+The audit included checks for:
+- Missing values
+- Duplicate observations
+- Data types
+- Consistency
+- Numerical ranges
+- Potentially unusual values
+There were no duplicate records and no missing values in the numerical variables used for modelling.
+The ```text geo_prov``` variable contained 43 blank entries because of the structure of the original DHB table. Province names were listed once followed by the districts belonging to that province. These were therefore treated as structural blanks and forward-filled.
+Unusually large numerical values were investigated rather than automatically removed because unusual observations are not necessarily data errors.
+**All 52 districts were retained for the final analysis.**
+## Exploratory Data Analysis
+
+EDA was performed using:
+- Descriptive statistics
+- Histograms
+- Boxplots
+- Scatterplots
+- Correlation analysis
+- Correlation heatmaps
+
+The strongest individual correlations with TB lost-to-follow-up rate were:
 
 | Variables| Pearson Correlation |
 |----------|---------------------|
 |% of target tested for TB| -0.521|
-|
-|
-|
-|
-|
-|
+|Medical scheme coverage	|0.463|
+|TB DS death rate	|-0.434|
+|PHC expenditure per PHC headcount	|-0.228|
+|Professional nurses per 100 000	|-0.189|
+|Expenditure per patient day equivalent	|-0.187|
+|TB/HIV co-infected clients on ART	|-0.046|
+|District Health Services expenditure per capita	|0.028|
+
+
+
+
+
