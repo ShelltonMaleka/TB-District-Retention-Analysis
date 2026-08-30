@@ -8,14 +8,14 @@ The main outcome variable is: TB DS client lost to follow-up rate
 A higher lost-to-follow-up rate represents poorer patient retention.
 ## Data Source 
 The analysis uses data extracted from the District Health Barometer (DHB) 2024/25, published by Health Systems Trust.
-The final dataset contains:
+**The final dataset contains:**
 - 52 South African health districts
 - 11 variables
 - 8 numerical explanatory variables
 - 1 target variable
 - Province and district identifiers
 
-The explanatory variables considered were:
+**The explanatory variables considered were:**
 - TB DS death rate
 - TB/HIV co-infected clients on ART rate
 - Percentage of the target tested for TB
