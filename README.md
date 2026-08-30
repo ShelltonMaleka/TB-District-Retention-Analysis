@@ -27,6 +27,7 @@ The analysis uses data extracted from the District Health Barometer (DHB) 2024/2
 - Average medical scheme coverage
 ## Project Workflow
 The analysis followed the workflow below:
+```
 District Health Barometer Data
 ↓
 Data Extraction
@@ -43,4 +44,4 @@ Multiple Linear Regression
 ↓
 Model Evaluation
 ↓
-Interpretation of TB Patient Retention Factors
+Interpretation of TB Patient Retention Factors ```
