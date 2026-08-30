@@ -14,6 +14,7 @@ The final dataset contains:
 - 8 numerical explanatory variables
 - 1 target variable
 - Province and district identifiers
+
 The explanatory variables considered were:
 - TB DS death rate
 - TB/HIV co-infected clients on ART rate
