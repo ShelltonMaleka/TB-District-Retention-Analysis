@@ -48,13 +48,13 @@ Interpretation of TB Patient Retention Factors
 ```
 ---
 ## The strongest individual correlations with TB lost-to-follow-up rate were:
-Variable	Pearson Correlation
-% of target tested for TB	-0.521
-Medical scheme coverage	0.463
-TB DS death rate	-0.434
-PHC expenditure per PHC headcount	-0.228
-Professional nurses per 100 000	-0.189
-Expenditure per patient day equivalent	-0.187
-TB/HIV co-infected clients on ART	-0.046
-District Health Services expenditure per capita	0.02
+Variable	                        Pearson Correlation
+- % of target tested for TB  	       -0.521
+- Medical scheme coverage	              0.463
+- TB DS death rate	                   -0.434
+- PHC expenditure per PHC headcount    -0.228
+- Professional nurses per 100 000      -0.189
+- Expenditure per patient day equivalent	-0.187
+- TB/HIV co-infected clients on ART	      -0.046
+- District Health Services expenditure per capita	0.02
 
