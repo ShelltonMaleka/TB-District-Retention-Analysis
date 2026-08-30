@@ -56,8 +56,10 @@ The audit included checks for:
 - Consistency
 - Numerical ranges
 - Potentially unusual values
+
 There were no duplicate records and no missing values in the numerical variables used for modelling.
-The ```text geo_prov``` variable contained 43 blank entries because of the structure of the original DHB table. Province names were listed once followed by the districts belonging to that province. These were therefore treated as structural blanks and forward-filled.
+
+The ```geo_prov``` variable contained 43 blank entries because of the structure of the original DHB table. Province names were listed once followed by the districts belonging to that province. These were therefore treated as structural blanks and forward-filled.
 Unusually large numerical values were investigated rather than automatically removed because unusual observations are not necessarily data errors.
 **All 52 districts were retained for the final analysis.**
 ## Exploratory Data Analysis
