@@ -1,2 +1,4 @@
-# TB-District-Retention-Analysis
-Analysis of socioeconomic and healthcare-system factors associated with drug-susceptible TB patient loss to follow-up across South African districts in 2024.
+# TB Patient Retention Analysis in South Africa
+## Project Overview
+Tuberculosis (TB) treatment requires patients to remain in continuous care for treatment to be successful. Patients who are lost to follow-up may experience interrupted treatment, making retention an important part of TB control.
+This project uses district-level South African health data to investigate the factors associated with the inability to retain drug-susceptible TB patients in continuous care.
